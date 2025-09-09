@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.hero{
+    min-height: 100vh;
+    background: url(../img/bg-img.png) no-repeat;
+    background-color: black;
+    background-position: right;
+    background-size: contain;
+}
+
+nav{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.logo{
+    width: 7%;
+    filter: drop-shadow(1px 2px #1de83fd6);
+}
+
+.logo-content{
+    display: flex;
+}
+
+.logo-content p{
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 0 15px #1de83f;
+}
+
+nav ul{
+    display: flex;
+    align-items:center;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+nav ul li a:hover{
+    color: #1de83f;
+    border-bottom: 2px solid #1de83f;
+    text-shadow: 0 0 5px #1de83f;
+}
+
+nav button{
+    padding: 12px 35px;
+    border: none;
+    background: linear-gradient(90deg, #1de83f, #005c00);
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 550;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+nav button:hover{
+    box-shadow: 0 0 15px #1de83f;
+}
+
+.content{
+    position: absolute;
+    top: 35%;
+    left: 90px;
+}
+
+h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+h1 span{
+    color: #1de83f;
+}
+
+p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.content button{
+    margin: 40px 5px;
+    padding: 12px 45px;
+    border: none;
+    background: #1de83f;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.content button:last-child{
+    background: none;
+    border: 2px solid #1de83f;
+    color: #1de83f;
+    transition: all 0.5s;
+}
+
+.content button:hover{
+    box-shadow: 0 0 15px #1de83f;
+}
+
