@@ -9,7 +9,7 @@ O projeto demonstra a capacidade de criar uma interface com uma identidade visua
 * **Efeitos de hover** nos botões e links, aprimorando a interatividade.
 
 ## 🚀 Acesse o Site
-
+https://aleksandraberto.github.io/WebsiteMusicaAleksify-repositorio/
 
 ## 📂 Estrutura do projeto
 /AleksifyMusicWebsite
